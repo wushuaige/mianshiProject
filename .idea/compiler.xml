@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ebuycommon" />
+        <module name="ebuymanagerdao" />
+        <module name="ebuymanagerinterface" />
+        <module name="ebuymanagerpojo" />
+        <module name="ebuymanagerservice" />
+        <module name="ebuymanagerweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ebuycommon" target="1.5" />
+      <module name="ebuymanager" target="1.5" />
+      <module name="ebuymanagerdao" target="1.5" />
+      <module name="ebuymanagerinterface" target="1.5" />
+      <module name="ebuymanagerpojo" target="1.5" />
+      <module name="ebuymanagerservice" target="1.5" />
+      <module name="ebuymanagerweb" target="1.5" />
+      <module name="ebuyparent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ebuycommon/ebuycommon.iml" filepath="$PROJECT_DIR$/ebuycommon/ebuycommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuymanager.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuymanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/ebuymanagerdao.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/ebuymanagerdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/ebuymanagerinterface.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/ebuymanagerinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/ebuymanagerpojo.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/ebuymanagerpojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/ebuymanagerservice.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/ebuymanagerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/ebuymanagerweb.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/ebuymanagerweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebuyparent/ebuyparent.iml" filepath="$PROJECT_DIR$/ebuyparent/ebuyparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mianshiProject.iml" filepath="$PROJECT_DIR$/.idea/mianshiProject.iml" />
+    </modules>
+  </component>
+</project>
