@@ -19,6 +19,8 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+
+
     <!--前端控制器-->
     <servlet>
         <servlet-name>ebuy-manager</servlet-name>
@@ -34,6 +36,8 @@
         <servlet-name>ebuy-manager</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+
     <!--post请求字符处理-->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>

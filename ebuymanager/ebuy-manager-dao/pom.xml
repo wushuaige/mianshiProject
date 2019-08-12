@@ -54,6 +54,92 @@
     </dependencies>
 
 
+    <!--如果不添加此节点mybatis的mapper.xml文件都会被漏掉，下面几种方法都可以-->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <!--<resource>-->
+                <!--<directory>src/main/resources</directory>-->
+                <!--<includes>-->
+                    <!--<include>**/*.properties</include>-->
+                    <!--<include>**/*.xml</include>-->
+                <!--</includes>-->
+                <!--<filtering>false</filtering>-->
+            <!--</resource>-->
+        </resources>
+
+        <!--https://blog.csdn.net/Fickle_actor/article/details/82712663-->
+        <!--<resources>-->
+            <!--<resource>-->
+                <!--<directory>src/main/java/com/igeek/ebuy/manager</directory>-->
+                <!--<includes>-->
+                    <!--<include>*/*.xml</include>-->
+                <!--</includes>-->
+            <!--</resource>-->
+        <!--</resources>-->
+    </build>
+
+    <!--使用build-helper-maven-plugin插件-->
+    <!--<plugin>-->
+        <!--<groupId>org.codehaus.mojo</groupId>-->
+        <!--<artifactId>build-helper-maven-plugin</artifactId>-->
+        <!--<version>1.8</version>-->
+        <!--<executions>-->
+            <!--<execution>-->
+                <!--<id>add-resource</id>-->
+                <!--<phase>generate-resources</phase>-->
+                <!--<goals>-->
+                    <!--<goal>add-resource</goal>-->
+                <!--</goals>-->
+                <!--<configuration>-->
+                    <!--<resources>-->
+                        <!--<resource>-->
+                            <!--<directory>src/main/java</directory>-->
+                            <!--<includes>-->
+                                <!--<include>**/*.xml</include>-->
+                            <!--</includes>-->
+                        <!--</resource>-->
+                    <!--</resources>-->
+                <!--</configuration>-->
+            <!--</execution>-->
+        <!--</executions>-->
+    <!--</plugin>-->
+
+    <!--使用maven-resources-plugin插件-->
+    <!--<plugin>-->
+        <!--<artifactId>maven-resources-plugin</artifactId>-->
+        <!--<version>2.5</version>-->
+        <!--<executions>-->
+            <!--<execution>-->
+                <!--<id>copy-xmls</id>-->
+                <!--<phase>process-sources</phase>-->
+                <!--<goals>-->
+                    <!--<goal>copy-resources</goal>-->
+                <!--</goals>-->
+                <!--<configuration>-->
+                    <!--<outputDirectory>${basedir}/target/classes</outputDirectory>-->
+                    <!--<resources>-->
+                        <!--<resource>-->
+                            <!--<directory>${basedir}/src/main/java</directory>-->
+                            <!--<includes>-->
+                                <!--<include>**/*.xml</include>-->
+                            <!--</includes>-->
+                        <!--</resource>-->
+                    <!--</resources>-->
+                <!--</configuration>-->
+            <!--</execution>-->
+        <!--</executions>-->
+    <!--</plugin>-->
+
+
+
 
 
 </project>

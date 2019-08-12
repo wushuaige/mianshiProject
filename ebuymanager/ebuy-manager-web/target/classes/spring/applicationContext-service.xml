@@ -16,6 +16,6 @@
 
     <!--只配置一个扫描包-->
     <!--接口里创建，因为分离了吗，service创建com.igeek.ebuy.service.impl包-->
-    <context:component-scan base-package="com.igeek.ebuy.service"/>
+    <context:component-scan base-package="com.igeek.ebuy.service.impl"/>
 
 </beans>
