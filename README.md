@@ -7,6 +7,8 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 合工程install，它会自动按照顺序给你装好，确定开发工具配置的完整正确，运行tomcat插件的run-war，显示访问
 路径http://localhost:8080/  不行就执行clean，有时下载jar会出错，工程搭建暂时okay
 
+# 新增在初始代码后会使用firstTransactionBranch分支来提交后续代码，近开发完成再次合并
+
 # 一些页面错误显示
 
 - 200(OK) 成功HTTP请求的准响应
