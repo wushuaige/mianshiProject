@@ -7,6 +7,16 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 合工程install，它会自动按照顺序给你装好，确定开发工具配置的完整正确，运行tomcat插件的run-war，显示访问
 路径http://localhost:8080/  不行就执行clean，有时下载jar会出错，工程搭建暂时okay
 
+# 一些页面错误显示
+
+- 200(OK) 成功HTTP请求的准响应
+- 201(CREATED) 成功创建项目
+- 204(NO CONTENT)响应正文中没有任何内容被返回
+- 400(BAD REQUEST) 由于请求语法错误，大小过大或其他饥饿护短错误，无法处理该请求
+- 403(FORBIDDEN) 客户端没有权限访问该资源
+- 404(NOT FOUND) 此时无法找到该资源。它可能被删除或不存在
+- 500(INTERNAL SERVER ERROR) 若无更多可用信息，则通过答案意外失败
+
 # ebuyparent
 
 - 简历项目
@@ -76,6 +86,7 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - springMVC框架配置
 - springMVC三大组件
 - 所有配置文件放在web中，because其他的项目会打包到web
+- 前端需要json数据格式的解析依赖，这里用jackson
 
 #### 最后配置web.xml
 
@@ -117,6 +128,17 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 逆向工程的缺点，只能单表查询，想多表查询需要自己扩展，后边会说如何在逆向工程实现的代码里面去扩展，或者说我不去改逆向工程的代码
 - 一定记得工具或什么帮你生成的代码尽量不要去改变，表更改，逆向工程重新生成，改的就白改了，想加功能就扩展它
 - 就是写个类去继承逆向工程生成的mapper，然后同时写一个配置文件去继承Example，这个当然会不能继承的后面会将具体怎么去扩展的，不急
+- 这里再次提交我新建了一个firstTransactionBranch分支，因为上次运行第一个根据id查询的任务时会出现一个500异常，是Mapper绑定异常
+- 其中异常显示Invalid bound statement (not found): com.igeek.ebuy.manager.mapper.TbItemMapper.selectByExample
+- 问题解决：maven里面有资源文件是放在resource里面的，但是在main/java下面有一堆mapper文件
+- 但是maven打包的时候不会吧java下面的这些资源文件打包到里面，所以一打包运行就会出错，没有打进去
+- 跑itemMapper的时候会发现没有对应的配置文件，没有对应的就叫映射文件吧，这时候我们的做法是告诉maven
+- 打包的时候把java下面的文件也打进去，在dao的pom文件中添加一个下面这样的节点
+- 这个节点下面的下面的下面的一些标签内内容怎么填有的是不一样的自己百度找
+- 有好多方法添加节点，使用maven插件
+- 上面这个问题解决后如果是SOA的话，还会有另外一个问题
+
+
 
 
 
