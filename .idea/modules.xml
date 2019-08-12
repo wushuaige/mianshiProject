@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/ebuymanagerservice.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/ebuymanagerservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/ebuymanagerweb.iml" filepath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/ebuymanagerweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ebuyparent/ebuyparent.iml" filepath="$PROJECT_DIR$/ebuyparent/ebuyparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" filepath="$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mianshiProject.iml" filepath="$PROJECT_DIR$/.idea/mianshiProject.iml" />
     </modules>
   </component>

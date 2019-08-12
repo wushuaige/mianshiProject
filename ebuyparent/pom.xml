@@ -123,6 +123,7 @@
                 <artifactId>pagehelper</artifactId>
                 <version>${pagehelper.version}</version>
             </dependency>
+
             <!--Mysql-->
             <dependency>
                 <groupId>mysql</groupId>

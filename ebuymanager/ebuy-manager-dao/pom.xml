@@ -37,6 +37,10 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis.generator</groupId>-->
+            <!--<artifactId>mybatis-generator</artifactId>-->
+        <!--</dependency>-->
         <!--Mysql-->
         <dependency>
             <groupId>mysql</groupId>
