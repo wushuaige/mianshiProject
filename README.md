@@ -128,6 +128,11 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 有好多方法添加节点，使用maven插件
 - 上面这个问题解决后如果是SOA的话，还会有另外一个问题
 
+## SVN管理，GIT也可以，随意
+
+- 下载TortoiseSVN(小乌龟)下载链接https://osdn.net/projects/tortoisesvn/storage/1.12.2/Application/TortoiseSVN-1.12.2.28653-x64-svn-1.12.2.msi/
+- 另外教程：https://blog.csdn.net/zwj1030711290/article/details/80687365
+
 # 一些页面错误显示
 
 - 200(OK) 成功HTTP请求的准响应

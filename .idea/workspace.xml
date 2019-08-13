@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8662a1b-9f90-4cf8-9987-a81a8d9bdefe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbContentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbItemCatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbItemDescMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbItemParamMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/com/igeek/ebuy/manager/mapper/TbUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/tomcat/logs/access_log.2019-08-13" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ebuymanagerweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ebuymanagerweb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuycommon/target/ebuy-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuycommon/target/ebuy-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuycommon/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ebuycommon/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemCatMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemCatMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemDescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentCategoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentCategoryExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemCatExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemCatExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemDescExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemDescExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamItemExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderItemExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderShipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderShipping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderShippingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderShippingExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbUserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbUserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/sqlfile/ebuy.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/ebuy-manager-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/ebuy-manager-dao.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/target/ebuy-manager-interface.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/target/ebuy-manager-interface.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/target/ebuy-manager-pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/target/ebuy-manager-pojo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/ebuymanagerweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/ebuymanagerweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web-1.0-SNAPSHOT-war-exec.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/lib/ebuy-manager-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/tomcat/logs/access_log.2019-08-11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/tomcat/logs/access_log.2019-08-12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/war-exec.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/war-exec.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ebuyparent/target/" />
     <ignored path="$PROJECT_DIR$/ebuycommon/target/" />
@@ -144,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="250">
-                <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+              <first_editor relative-caret-position="243">
+                <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -301,6 +221,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -417,7 +338,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,7 +345,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565628268709" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565630237820" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -433,7 +353,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2651715" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -490,17 +410,18 @@
       <workItem from="1565406888947" duration="21455000" />
       <workItem from="1565490830739" duration="16447000" />
       <workItem from="1565519746469" duration="35381000" />
+      <workItem from="1565674596784" duration="1636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73283000" />
+    <option name="totallyTimeSpent" value="74925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.22974414" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.23240939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5021692" side_tool="true" weight="0.20948827" />
@@ -509,7 +430,6 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2657267" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27874187" />
@@ -519,7 +439,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16052061" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30043384" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22776572" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.18546638" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
@@ -528,44 +448,25 @@
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="17" />
-      <window_info anchor="right" id="CDI" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.20842217" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1748401" />
+      <window_info anchor="right" id="Database" order="6" weight="0.1748401" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.21908316" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="CDI" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -644,16 +545,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/mapper/TbContentCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/mapper/TbContentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/mapper/TbContentCategoryMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/mapper/TbContentMapper.xml" />
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/maven-archiver/pom.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -879,8 +772,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="250">
-            <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+          <first_editor relative-caret-position="243">
+            <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
