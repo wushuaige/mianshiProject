@@ -103,6 +103,10 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 使用了Example，然后将service注入到mvc，平时是不用的，使用soa分离后直接调用接口
 - 写好业务逻辑等等后，需要把工程install一下，才可以跑，我们都要装接口，或者一起装一下也可以
 
+#### 另外記錄
+
+- spring事務配置：https://www.cnblogs.com/liujia1990/p/9045910.html
+
 #### Example
 
 - 逆向工程里面还有一个挺讨厌的查询方式selectByExample()
@@ -132,6 +136,10 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 
 - 下载TortoiseSVN(小乌龟)下载链接https://osdn.net/projects/tortoisesvn/storage/1.12.2/Application/TortoiseSVN-1.12.2.28653-x64-svn-1.12.2.msi/
 - 另外教程：https://blog.csdn.net/zwj1030711290/article/details/80687365
+- 配置路径到你的bin目录下的svn.exe就可以了，IDEA在VSC菜单选项中checkout.....选项中的subversion中输入连接SVN中的url
+- 那个TortoiseSVN类似于IDEA的SVN插件，可以添加项目的url进行管理，在IDEA里面操作svn，类似于IDEAsvn Manager插件
+- 这都是使用IDEA，eclipse更简单，右击项目，Subversion会有多种选项，下面网址对这些选项进行了详细介绍：https://blog.csdn.net/hello__word__/article/details/81773815
+- 我不得不说还是git好用，这个svn后边可能就不用了
 
 # 一些页面错误显示
 

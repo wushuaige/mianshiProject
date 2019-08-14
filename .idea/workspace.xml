@@ -2,8 +2,377 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8662a1b-9f90-4cf8-9987-a81a8d9bdefe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ebuymanagerweb_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ebuymanagerweb_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5c1f7f36-a423-4b1b-b453-b9f948904b90.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/code" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/j2ee" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mianshiProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/ebuycommon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuycommon/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/ebuymanagerdao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemCatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemCatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemDescMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemCatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemDescExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbItemParamItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbOrderShippingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/resources/sqlfile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/resources/sqlfile/ebuy.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/ebuymanagerinterface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/ebuymanagerpojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/ebuymanagerservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/ebuymanagerweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java/com/igeek" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java/com/igeek/ebuy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/conf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/conf/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/mybatis" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/mybatis/SqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/META-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/WEB-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/ebuymanager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuymanager/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/ebuyparent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/ebuyparent/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/META-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/META-INF/generatorSqlmapCustom.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbContentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemCatMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemCatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemDescMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbItemParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbOrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/manager/mapper/TbUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbContentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemCat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemCatExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemCatExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemCatExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemCatExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemDescExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemDescExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemDescExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemDescExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbItemParamItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderShipping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderShippingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderShippingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderShippingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbOrderShippingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbUserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbUserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/com/igeek/ebuy/pojo/TbUserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/o" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/lib/o/GeneratorSqlMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbContentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemCatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemCatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemDescMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbItemParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/manager/mapper/TbUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbContentCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbContentCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbContentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemCatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemDescExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemParamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemParamItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbItemParamItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbOrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbOrderItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbOrderShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbOrderShippingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/com/igeek/ebuy/pojo/TbUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/o" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/generatorSqlmapCustom/src/o/GeneratorSqlMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/org/springframework" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/org/springframework/web" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/org/springframework/web/bind" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/org/springframework/web/bind/annotation" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/org/springframework/web/bind/annotation/annotations.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ebuyparent/target/" />
     <ignored path="$PROJECT_DIR$/ebuycommon/target/" />
@@ -64,10 +433,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="243">
-                <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+              <first_editor relative-caret-position="289">
+                <caret line="141" column="28" lean-forward="true" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -131,7 +509,6 @@
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/conf/db.properties" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/pojo/TbUserExample.java" />
@@ -157,6 +534,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
       </list>
     </option>
   </component>
@@ -215,13 +593,12 @@
     <option name="width" value="1308" />
     <option name="height" value="848" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,41 +615,41 @@
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
               <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
               <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
               <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
               <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
@@ -294,6 +671,15 @@
               <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
@@ -314,30 +700,12 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuyparent" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,9 +713,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565630237820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565765685047" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ebuyparent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -397,8 +765,79 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\DELL\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\.idea" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuycommon" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-dao" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-dao" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-interface" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-interface" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-pojo" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-pojo" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-web" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-web" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuyparent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\generatorSqlmapCustom" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\generatorSqlmapCustom" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuycommon" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuycommon" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuymanager" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\all_Github_Project\mianshiProject\ebuyparent" />
+          <option name="myCopyRoot" value="D:\all_Github_Project\mianshiProject\ebuyparent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -410,18 +849,24 @@
       <workItem from="1565406888947" duration="21455000" />
       <workItem from="1565490830739" duration="16447000" />
       <workItem from="1565519746469" duration="35381000" />
-      <workItem from="1565674596784" duration="1636000" />
+      <workItem from="1565674596784" duration="1800000" />
+      <workItem from="1565701364667" duration="927000" />
+      <workItem from="1565709734044" duration="745000" />
+      <workItem from="1565715130946" duration="927000" />
+      <workItem from="1565716127880" duration="1324000" />
+      <workItem from="1565721441189" duration="4754000" />
+      <workItem from="1565766485203" duration="4609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74925000" />
+    <option name="totallyTimeSpent" value="88375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.23240939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.24840085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5021692" side_tool="true" weight="0.20948827" />
@@ -439,7 +884,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16052061" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22776572" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20607375" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.18546638" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
@@ -521,16 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -575,11 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -591,13 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-276">
           <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -769,11 +1192,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#447#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="243">
-            <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+          <first_editor relative-caret-position="289">
+            <caret line="141" column="28" lean-forward="true" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
@@ -858,6 +1306,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: org.springframework:spring-context:4.2.4.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2651715" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
