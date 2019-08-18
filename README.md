@@ -7,6 +7,16 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 合工程install，它会自动按照顺序给你装好，确定开发工具配置的完整正确，运行tomcat插件的run-war，显示访问
 路径http://localhost:8080/  不行就执行clean，有时下载jar会出错，工程搭建暂时okay
 
+# 一些页面错误显示
+
+- 200(OK) 成功HTTP请求的准响应
+- 201(CREATED) 成功创建项目
+- 204(NO CONTENT)响应正文中没有任何内容被返回
+- 400(BAD REQUEST) 由于请求语法错误，大小过大或其他饥饿护短错误，无法处理该请求
+- 403(FORBIDDEN) 客户端没有权限访问该资源
+- 404(NOT FOUND) 此时无法找到该资源。它可能被删除或不存在
+- 500(INTERNAL SERVER ERROR) 若无更多可用信息，则通过答案意外失败
+
 # ebuyparent
 
 - 简历项目
@@ -141,15 +151,86 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 这都是使用IDEA，eclipse更简单，右击项目，Subversion会有多种选项，下面网址对这些选项进行了详细介绍：https://blog.csdn.net/hello__word__/article/details/81773815
 - 我不得不说还是git好用，这个svn后边可能就不用了
 
-# 一些页面错误显示
+# ebuy项目
 
-- 200(OK) 成功HTTP请求的准响应
-- 201(CREATED) 成功创建项目
-- 204(NO CONTENT)响应正文中没有任何内容被返回
-- 400(BAD REQUEST) 由于请求语法错误，大小过大或其他饥饿护短错误，无法处理该请求
-- 403(FORBIDDEN) 客户端没有权限访问该资源
-- 404(NOT FOUND) 此时无法找到该资源。它可能被删除或不存在
-- 500(INTERNAL SERVER ERROR) 若无更多可用信息，则通过答案意外失败
+## 理解soa，dubbo
+
+### 项目修改成soa架构，通过dubbo
+
+- 首先需要虚拟机VMWare,等等都可以，win10专业版的Hyper-V啊等
+- 第一步把service层与服务层分开
+- 两个系统之间相互通信有多重方式
+- 第一种WebService，基于soap协议，效率不高。项目中不推荐使用
+- restful形式，http+json。
+- 使用dubbo，使用rpc协议进行远程调用，直接使用socket通信。效率高，并可统计出系统之间的调用关系、调用次数。
+- 
+
+#### dubbo
+
+- 解决两个工程之间的通信
+- container容器(spring)，provider服务提供者(180的姑娘)，registory(交友中心)，consumer(相亲人员)，monitor(中国移动)
+- 上面是以一个形象化的方式解说，提出要求，中心正好有返回手机号码那个，平台归平台，只是获得了相应的总归是两个系统沟通的
+- invoke两个之间通信，使用手机通信，这个手机才是dubbo，解决工程之间沟通，注册中心什么的跟dubbo没有关系
+- 注册中心不管是用redis还是zookeeper都可以实现，主要是发布信息，dubbo也会把信息发布上去，但dubbo主要的....
+- 所以说为什么说有个monitor是中国移动，就是工程之间怎么调用的这个monitor都知道，qq安全吗，不公安局弄个正就可以调你全部信息，都是存储的
+- dubbo是怎么做的呢，这里面对应的container是spring，provider是service对象，service把对外提供的端口、地址发在register注册中心
+- consumer客户端消费者，去找对应的接口服务然后注册中心就把对应的ip地址给你，就可以通信了。
+- 这里的monitor是监控中心，dubbo官方提供的监控中心，你就用来监控各个服务之间的情况
+- 详细：provider：暴露服务的服务提供方
+- consumer：调用远程服务的服务消费方
+- registory：服务注册与发现注册中心
+- monitor：统计服务的调用次数和调用时间的监控中心
+- container：服务运行容器
+- 调用关系：
+- 0 服务容器负责启动，加载，运行服务提供者
+- 1 服务提供者在启动时，向注册中心注册自己提供的服务
+- 2 服务消费者在启动时，想注册中心订阅自己所需的服务
+- 3 注册中心返回服务提供者地址列表给消费者，如果有变更，注册中心将基于长连接推送变更数据给消费者
+- 4 服务消费者，从提供者地址列表中，基于软负载均衡算法，选一台提供者进行调用，如果调用失败，再选另一台调用。
+- 5 服务消费者和提供者，在内存中累计调用次数和调用时间，定时每分钟发送一次统计数据到监控中心。
+
+##### dubbo使用
+- 采用全spring配置，透明化接入应用，对应用没有任何API侵入
+- 只需要spring加载dubbo配置即可，基于schema扩展进行加载
+
+#### 注册中心
+
+- 搭建起来，阿里官方建议使用zookeeper注册中心
+- 负责服务地址注册与查找
+
+## 注册中心zookeeper
+
+- 搭建注册中心，使用zookeeper
+
+##### zookeeper
+
+- 可参考网址解压包位置：https://www.cnblogs.com/liangqihui/p/7154407.html
+- https://zhidao.baidu.com/question/504775293.html
+- 复制路径：http://c.biancheng.net/view/746.html
+- 
+- 安装环境：centos，jdk
+- 这里牵扯到了linux系统会写入常用命令
+- 在解压目录创建data文件夹，修改zoo_sample.cfg 为zoo.cfg，这不是集群，一个zookeeper就可以了
+- 修改配置文件里的dataDir=你的data文件所在的目录
+- ./zkServer.sh start启动zookeeper(./zkServer.sh stop停止，status状态)
+- service iptables stop 临时关闭防护墙
+- chkconfig iptables off 修改配置，开机不启动防火墙
+- lsof -i:22 检测22端口是否开放，用来使用Xshell
+- 永久开放端口：https://www.cnblogs.com/blackhumour2018/p/9648390.html，通過這個開放的端口號，losf -i是查詢不到什麽的
+- xftp是连接直接传送文件，给虚拟机
+
+## 实现商品列表功能
+
+- 將表現層獨立出來，這個工程web層與服務端實在一個工程裏邊的
+- web獨立出來，原有ebuy-manager改成dao、interface、pojo、service(打包方式改爲war)
+- 不一定改成war，只是爲了方便部署，我們最終是希望能啓動spring容器，最簡單的方式就是把工程丟到tomcat上面，運行自動加載，也可以main方法把spring容器加載起來
+- 啓動原理https://www.cnblogs.com/CLAYJJ/p/5967284.html
+- 容器：https://www.cnblogs.com/ysy6233/p/7811211.html
+- manager中pom文件刪除web，web文件移動到manager同級，service修改打包方式
+- service工程添加web.xml配置文件，web工程的配置文件複製到service中，刪除springmvc.xml，web.xml中只配置spring容器，刪除前端控制器
+- service中添加dubbo依賴的jar包
+- 
+
 
 
 
