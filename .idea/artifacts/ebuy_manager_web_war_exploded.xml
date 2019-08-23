@@ -14,23 +14,20 @@
           <element id="module-output" name="ebuy-manager-web" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="ebuy-manager-service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="ebuymanagerservice" />
-          </element>
-          <element id="archive" name="ebuy-manager-dao-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="ebuymanagerdao" />
+          <element id="archive" name="ebuy-manager-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ebuymanagerinterface" />
           </element>
           <element id="archive" name="ebuy-manager-pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ebuymanagerpojo" />
+          </element>
+          <element id="archive" name="ebuy-manager-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ebuymanagerdao" />
           </element>
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:3.4.2" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
-          <element id="archive" name="ebuy-manager-interface-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="ebuymanagerinterface" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
