@@ -4,6 +4,8 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+
+    <display-name>ebuy-manager</display-name>
     <!--加载spring容器的监听器-->
     <!--首先配置了一个全局参数，不配置默认在WEB-INF下找-->
     <context-param>

@@ -17,7 +17,7 @@
         <!--所以先依赖service，等改成SOA之后依赖接口就行了-->
         <dependency>
             <groupId>com.igeek</groupId>
-            <artifactId>ebuy-manager-service</artifactId>
+            <artifactId>ebuy-manager-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--Spring-->
