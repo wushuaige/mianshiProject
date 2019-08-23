@@ -8,7 +8,6 @@
         <module>ebuy-manager-dao</module>
         <module>ebuy-manager-interface</module>
         <module>ebuy-manager-service</module>
-        <module>ebuy-manager-web</module>
     </modules>
     <parent>
         <groupId>com.igeek</groupId>

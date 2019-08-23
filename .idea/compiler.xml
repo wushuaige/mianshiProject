@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ebuy-manager-web" />
         <module name="ebuycommon" />
         <module name="ebuymanagerdao" />
         <module name="ebuymanagerinterface" />
         <module name="ebuymanagerpojo" />
         <module name="ebuymanagerservice" />
-        <module name="ebuymanagerweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ebuy-manager-web" target="1.5" />
       <module name="ebuycommon" target="1.5" />
       <module name="ebuymanager" target="1.5" />
       <module name="ebuymanagerdao" target="1.5" />

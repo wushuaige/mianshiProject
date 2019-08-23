@@ -382,6 +382,7 @@
     <ignored path="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/target/" />
     <ignored path="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/" />
     <ignored path="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/ebuy-manager-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +434,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="204">
+              <first_editor relative-caret-position="5778">
                 <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
               </first_editor>
               <second_editor />
@@ -444,22 +445,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="297">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ebuy-manager-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebuy-manager-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -505,10 +510,8 @@
       <list>
         <option value="$PROJECT_DIR$/ebuycommon/pom.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/webapp/index.html" />
-        <option value="$PROJECT_DIR$/ebuymanager/pom.xml" />
         <option value="$PROJECT_DIR$/generatorSqlmapCustom/generatoyConfig.xml" />
         <option value="$PROJECT_DIR$/ebuyparent/pom.xml" />
         <option value="$PROJECT_DIR$/generatorSqlmapCustom/src/log4j.properties" />
@@ -550,6 +553,12 @@
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ebuy-manager-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/ebuymanager/pom.xml" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -560,6 +569,11 @@
         <option name="mavenHome" value="D:/computer_language_development_kits/Java_development_kits/about_the_framework/maven3.6/apche-maven-3.6.0/apache-maven-3.6.0bin" />
         <option name="userSettingsFile" value="D:\computer_language_development_kits\Java_development_kits\about_the_framework\maven3.6\apche-maven-3.6.0\apache-maven-3.6.0bin\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -585,7 +599,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -601,78 +614,13 @@
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
               <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -681,31 +629,33 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566499273150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566529271422" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExamStack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ebuy-manager-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2651715" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\all_Github_Project\mianshiProject\ebuy-manager-web\src\main" />
-      <recent name="D:\all_Github_Project\mianshiProject\generatorSqlmapCustom" />
-      <recent name="D:\all_Github_Project\mianshiProject\generatorSqlmapCustom\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.igeek.ebuy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\all_Github_Project\mianshiProject\ebuy-manager-web\src\main\webapp" />
       <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service\src" />
       <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-dao\src\main\java\com\igeek\ebuy\" />
       <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-dao\src\main\java\com\igeek\ebuy\manager\" />
       <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-dao\src\main\java\com\igeek\ebuy\manager" />
-      <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-web\src\main\resources\spring" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service\src" />
+      <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service\src\main\webapp" />
+      <recent name="D:\all_Github_Project\mianshiProject\ebuy-manager-web\src\main" />
+      <recent name="D:\all_Github_Project\mianshiProject\generatorSqlmapCustom" />
+      <recent name="D:\all_Github_Project\mianshiProject\generatorSqlmapCustom\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -760,18 +710,19 @@
       <workItem from="1565963809431" duration="1959000" />
       <workItem from="1566014862720" duration="3934000" />
       <workItem from="1566127228861" duration="3675000" />
-      <workItem from="1566497325969" duration="1428000" />
+      <workItem from="1566497325969" duration="3323000" />
+      <workItem from="1566528966422" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107178000" />
+    <option name="totallyTimeSpent" value="109430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.26439232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.26705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5021692" side_tool="true" weight="0.20948827" />
@@ -782,14 +733,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2657267" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27874187" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27874187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20281996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16052061" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20607375" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22234273" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.18546638" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
@@ -817,61 +768,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemCatMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#159#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/mapper/TbContentCategoryMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/classes/mapper/TbContentMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/maven-archiver/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/target/maven-archiver/pom.properties" />
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -1068,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1107,9 +997,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/classes/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/classes/spring/applicationContext-service.xml" />
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/resources/conf/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -1117,10 +1005,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="204">
+          <first_editor relative-caret-position="5778">
             <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
           </first_editor>
           <second_editor />
@@ -1129,24 +1064,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="297">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuy-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1106,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ebuymanagerweb:war</last-edited>
+          <last-edited>ebuymanagerweb:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1169,7 +1119,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (ebuymanagerweb)|Web</last-edited>
+          <last-edited>Web (ebuymanagerservice)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1184,7 +1134,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2651715" />
               </list>
             </option>
           </splitter-proportions>
@@ -1196,7 +1146,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2651715" />
               </list>
             </option>
           </splitter-proportions>
@@ -1204,7 +1154,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|ebuymanagerweb</last-edited>
+          <last-edited>Web|ebuymanagerservice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

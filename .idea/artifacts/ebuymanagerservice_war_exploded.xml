@@ -1,22 +1,19 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ebuymanagerweb:war exploded">
-    <output-path>$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web</output-path>
+  <artifact type="exploded-war" name="ebuymanagerservice:war exploded">
+    <output-path>$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>ebuymanagerweb</module>
+        <module>ebuymanagerservice</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="ebuymanagerweb" />
+          <element id="module-output" name="ebuymanagerservice" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="ebuy-manager-service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="ebuymanagerservice" />
-          </element>
           <element id="archive" name="ebuy-manager-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ebuymanagerdao" />
           </element>
@@ -49,16 +46,12 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/ebuy-manager-web/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="ebuymanagerweb/web/Web" />
+      <element id="javaee-facet-resources" facet="ebuymanagerservice/web/Web" />
     </root>
   </artifact>
 </component>

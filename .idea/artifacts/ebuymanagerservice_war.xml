@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ebuymanagerservice:war">
+    <output-path>$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ebuymanagerservice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ebuy-manager-service.war">
+      <element id="artifact" artifact-name="ebuymanagerservice:war exploded" />
+    </root>
+  </artifact>
+</component>

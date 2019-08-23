@@ -6,6 +6,8 @@
     </list>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ebuy-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web" />
   </component>
   <component name="JavaScriptSettings">
@@ -17,6 +19,7 @@
         <option value="$PROJECT_DIR$/ebuyparent/pom.xml" />
         <option value="$PROJECT_DIR$/ebuycommon/pom.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/pom.xml" />
+        <option value="$PROJECT_DIR$/ebuy-manager-web/pom.xml" />
       </list>
     </option>
   </component>

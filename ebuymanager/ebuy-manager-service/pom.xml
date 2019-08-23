@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ebuy-manager-service</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <!--用到redis，solr什么的用到在加-->
     <dependencies>
