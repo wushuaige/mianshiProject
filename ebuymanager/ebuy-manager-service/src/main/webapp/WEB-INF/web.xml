@@ -10,7 +10,7 @@
     <!--首先配置了一个全局参数，不配置默认在WEB-INF下找-->
     <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:spring/applicationContext-service.xml</param-value>
+    <param-value>classpath:spring/applicationContext*.xml</param-value>
     </context-param>
     <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>

@@ -26,6 +26,7 @@ public class ItemServiceImpl implements ItemService {
 //        return itemMapper.selectByPrimaryKey(itemId);
 //        return null;
 //        还有一种方式Example
+
         TbItemExample example = new TbItemExample();
         //设置条件
         TbItemExample.Criteria criteria = example.createCriteria();
