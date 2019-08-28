@@ -383,6 +383,7 @@
     <ignored path="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/" />
     <ignored path="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/target/" />
     <ignored path="$PROJECT_DIR$/ebuy-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,12 +431,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="5778">
-                <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
+              <first_editor relative-caret-position="255">
+                <caret line="195" column="59" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -445,35 +446,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources/spring/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="388">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -519,14 +493,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/generatoyConfig.xml" />
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/src/p/GeneratorSqlMap.java" />
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/src/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/src/GeneratorSqlMap.java" />
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/src/o/GeneratorSqlMap.java" />
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/mapper/TbItemParamMapper.java" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/pojo/TbItemParamItem.java" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/mybatis/SqlMapperConfig.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/conf/db.properties" />
@@ -555,21 +521,29 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/resources/spring/applicationContext-trans.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/pom.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/ebuyparent/pom.xml" />
         <option value="$PROJECT_DIR$/ebuycommon/pom.xml" />
-        <option value="$PROJECT_DIR$/ebuy-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/ebuy-manager-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ebuy-manager-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/java/Eureka.java" />
+        <option value="$PROJECT_DIR$/eureka/src/main/java/com/ebuy/eureka/eureka.java" />
+        <option value="$PROJECT_DIR$/eureka/src/main/java/com/ebuy/eureka/Eureka.java" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/java/com/ebuy/eureka/EurekaApp.java" />
+        <option value="$PROJECT_DIR$/ebuyparent/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/MemberApp.java" />
+        <option value="$PROJECT_DIR$/ebuy-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -589,14 +563,39 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ebuy-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ebuy-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ebuy-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="82" />
-    <option name="y" value="71" />
-    <option name="width" value="1516" />
+    <option name="x" value="345" />
+    <option name="y" value="187" />
+    <option name="width" value="1308" />
     <option name="height" value="848" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -605,8 +604,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -638,7 +635,7 @@
               <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
@@ -646,8 +643,7 @@
               <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
@@ -658,7 +654,41 @@
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
               <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
@@ -697,7 +727,8 @@
               <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
@@ -706,37 +737,100 @@
               <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuymanager" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ebuyparent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mianshiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mianshiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566654380999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566994152515" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ebuy-manager-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-admin-2.5.4-for-JDK1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2651715" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\all_Github_Project\mianshiProject\ebuy-manager-web\src\main\resources" />
+      <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-interface\src\main\resources" />
       <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service\src\main" />
       <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service\src" />
       <recent name="D:\all_Github_Project\mianshiProject\ebuymanager\ebuy-manager-service\src\main\webapp" />
-      <recent name="D:\all_Github_Project\mianshiProject\ebuy-manager-web\src\main" />
-      <recent name="D:\all_Github_Project\mianshiProject\generatorSqlmapCustom" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.igeek.ebuy" />
@@ -761,7 +855,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MemberApp">
     <configuration name="GeneratorSqlMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="o.GeneratorSqlMap" />
       <module name="generatorSqlmapCustom" />
@@ -769,8 +863,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ebuy.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ebuy.eureka.EurekaApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ebuy-manager-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.igeek.ebuy.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.igeek.ebuy.manager.MemberApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MemberApp" />
+        <item itemvalue="Spring Boot.EurekaApp" />
         <item itemvalue="Application.GeneratorSqlMap" />
       </list>
     </recent_temporary>
@@ -805,18 +927,23 @@
       <workItem from="1566528966422" duration="2074000" />
       <workItem from="1566558079406" duration="2546000" />
       <workItem from="1566612331751" duration="6460000" />
-      <workItem from="1566654539766" duration="4086000" />
+      <workItem from="1566654539766" duration="4831000" />
+      <workItem from="1566816480829" duration="1757000" />
+      <workItem from="1566831087977" duration="4883000" />
+      <workItem from="1566871346759" duration="6567000" />
+      <workItem from="1566911567730" duration="5773000" />
+      <workItem from="1566960243416" duration="10804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124239000" />
+    <option name="totallyTimeSpent" value="154768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.2750533" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.29104477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5021692" side_tool="true" weight="0.20948827" />
@@ -827,14 +954,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2657267" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27874187" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25813448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20281996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16052061" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22234273" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22234273" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.18546638" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
@@ -842,12 +969,13 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.2505423" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="17" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.329718" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.329718" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1609808" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.15351813" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.1748401" />
@@ -862,62 +990,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="250" column="2" selection-start-line="250" selection-start-column="2" selection-end-line="250" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbItemParamMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="250" column="2" selection-start-line="250" selection-start-column="2" selection-end-line="250" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="257" column="2" selection-start-line="257" selection-start-column="2" selection-end-line="257" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbOrderShippingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="304" column="11" lean-forward="true" selection-start-line="304" selection-start-column="11" selection-end-line="304" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="242" column="1" selection-start-line="242" selection-start-column="1" selection-end-line="242" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/manager/mapper/TbContentCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5c1f7f36-a423-4b1b-b453-b9f948904b90/schema/ebuy/table/tb_content">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://5c1f7f36-a423-4b1b-b453-b9f948904b90/schema/ebuy/table/tb_content_category">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -998,35 +1070,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/index.html" />
     <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapps/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-web/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ebuymanager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebuycommon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebuyparent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="285" column="42" selection-start-line="285" selection-start-column="42" selection-end-line="285" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1044,13 +1097,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/classes/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/classes/spring/applicationContext-service.xml" />
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-dao/src/main/java/com/igeek/ebuy/pojo/TbContentCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1062,16 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="5778">
-            <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1089,16 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#159#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources/mybatis/SqlMapperConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1109,78 +1136,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service/WEB-INF/classes/spring/applicationContext-service.xml" />
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service/WEB-INF/classes/com/igeek/ebuy/service/impl/ItemServiceImpl.class" />
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/classes/com/igeek/ebuy/service/impl/ItemServiceImpl.class" />
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="-324">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="756">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service/WEB-INF/classes/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/ebuymanager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
+        <state relative-caret-position="270">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/ebuy-manager-service/WEB-INF/classes/com/igeek/ebuy/service/impl/ItemServiceImpl.class">
+    <entry file="file://$PROJECT_DIR$/ebuyparent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/controller/MemberApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
-            <element signature="e#0#1003#0" expanded="true" />
+            <element signature="e#667#691#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/target/classes/com/igeek/ebuy/service/impl/ItemServiceImpl.class">
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-interface/src/main/java/com/igeek/ebuy/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#159#183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/java/com/igeek/ebuy/service/impl/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="297">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#384#408#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebuy-manager-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        <state relative-caret-position="189">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/ebuy/eureka/EurekaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="432">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/ebuy-manager-web/src/main/java/com/igeek/ebuy/manager/MemberApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="364">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebuymanager/ebuy-manager-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="195" column="59" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1303,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ebuymanagerweb:war exploded</last-edited>
+          <last-edited>ebuymanagerservice:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1238,7 +1351,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ebuy-manager-web</last-edited>
+          <last-edited>eureka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1263,7 +1376,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework:spring-context:4.2.4.RELEASE</last-edited>
+          <last-edited>Maven: org.springframework.cloud:spring-cloud-starter-netflix-euraka-server:unknown</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -192,6 +192,8 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 ##### dubbo使用
 - 采用全spring配置，透明化接入应用，对应用没有任何API侵入
 - 只需要spring加载dubbo配置即可，基于schema扩展进行加载
+- https://www.cnblogs.com/lilixin/p/5724976.html
+- https://blog.csdn.net/u014740338/article/details/80278289
 
 #### 注册中心
 

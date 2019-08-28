@@ -12,18 +12,30 @@
         <module name="ebuymanagerinterface" />
         <module name="ebuymanagerpojo" />
         <module name="ebuymanagerservice" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ebuy-manager-web" target="1.5" />
-      <module name="ebuycommon" target="1.5" />
+      <module name="ebuycommon" target="1.8" />
       <module name="ebuymanager" target="1.5" />
-      <module name="ebuymanagerdao" target="1.5" />
-      <module name="ebuymanagerinterface" target="1.5" />
-      <module name="ebuymanagerpojo" target="1.5" />
+      <module name="ebuymanagerdao" target="1.8" />
+      <module name="ebuymanagerinterface" target="1.8" />
+      <module name="ebuymanagerpojo" target="1.8" />
       <module name="ebuymanagerservice" target="1.5" />
       <module name="ebuymanagerweb" target="1.5" />
       <module name="ebuyparent" target="1.5" />
+      <module name="eureka" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ebuycommon" options="-parameters" />
+      <module name="ebuymanagerdao" options="-parameters" />
+      <module name="ebuymanagerinterface" options="-parameters" />
+      <module name="ebuymanagerpojo" options="-parameters" />
+      <module name="ebuymanagerservice" options="" />
+      <module name="eureka" options="-parameters" />
+    </option>
   </component>
 </project>

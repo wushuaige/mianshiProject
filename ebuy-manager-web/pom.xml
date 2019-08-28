@@ -12,7 +12,36 @@
     <artifactId>ebuy-manager-web</artifactId>
     <packaging>war</packaging>
 
+
+    <dependencyManagement>
+
+        <dependencies>
+            <!--springboot+springcloud-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.M7</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
+        <!--整合eureka-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-parent</artifactId>-->
+            <!--<version>2.0.0.RELEASE</version>-->
+        <!--</dependency>-->
+
+
+
         <!--这里只需要依赖接口就可以了，不用去依赖实现类了，接口实现类为什么分开-->
         <!--工程没有SOA分开，所以出现直接依赖于接口最终不会把实现类打包进这里面-->
         <!--所以先依赖service，等改成SOA之后依赖接口就行了-->
@@ -104,6 +133,20 @@
             <artifactId>zkclient</artifactId>
         </dependency>
     </dependencies>
+
+    <!--必须加，解决各种依赖问题：eureka-->
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>http://repo.spring.io/libs-milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+
     <build>
         <plugins>
             <!--<plugin>-->

@@ -1,0 +1,13 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: ebuy-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+      ## 因为该应用未注册中心，不会注册自己
+    registry-with-eureka: true
+    ## 是否主要从eureka上获取注册信息
+    fetch-registry: true
