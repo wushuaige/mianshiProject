@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.igeek.ebuy.pojo.TbItem;
 
@@ -28,10 +29,10 @@ public class ItemController {
     @Autowired
     private ItemService itemService;
 
-    @RequestMapping("/item/{itemId}")
+    @RequestMapping(value = "/item/{itemId}",method = RequestMethod.GET)
     //    需要返回json格式数据，so,它会自己使用jcason将查出的对象转为json
     @ResponseBody
-//    参数是从路径中获取的，so
+//    参数是从路径中获取的，so,加上了这个注解
     public TbItem queryById(@PathVariable long itemId){
         //springMVC会自动将对象转换为json，因为配置了@ReponseBody  不走视图解析器
         return itemService.queryById(itemId);

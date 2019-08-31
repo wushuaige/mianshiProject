@@ -239,9 +239,11 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 然后虚拟机开启注册中心，运行dubbo监控中心
 - 成功后会有检测到服务，不过会出一个TBItem序列化的错误
 - socket对象流，网络编程，发对象的时候对象必须实现序列化这个接口
-- 我们这里出错是因为没有实现
-- 
-- 
+- 我们这里出错是因为没有实现,在那个pojo类里面implements实现序列化接口serializable
+- 这里发现通过逆向工程实现的东西有放错地方的
+- 错误记录关于找不到什么返回值类型转换的什么玩意：http://www.it1352.com/951690.html
+- dubbo提供者ip不对：https://www.cnblogs.com/zhangcybb/p/4962873.html
+- 遇到的问题与下面类似：http://www.mamicode.com/info-detail-1320961.html
 
 
 

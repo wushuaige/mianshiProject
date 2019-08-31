@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.igeek.ebuy.manager.mapper.TbOrderShippingMapper">
-  <resultMap id="BaseResultMap" type="com.igeek.ebuy.pojo.TbOrderShipping">
+  <resultMap id="BaseResultMap" type="TbOrderShipping">
     <id column="order_id" jdbcType="VARCHAR" property="orderId" />
     <result column="receiver_name" jdbcType="VARCHAR" property="receiverName" />
     <result column="receiver_phone" jdbcType="VARCHAR" property="receiverPhone" />
@@ -73,10 +73,10 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    order_id, receiver_name, receiver_phone, receiver_mobile, receiver_state, receiver_city, 
+    order_id, receiver_name, receiver_phone, receiver_mobile, receiver_state, receiver_city,
     receiver_district, receiver_address, receiver_zip, created, updated
   </sql>
-  <select id="selectByExample" parameterType="com.igeek.ebuy.pojo.TbOrderShippingExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="TbOrderShippingExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -91,7 +91,7 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
-    select 
+    select
     <include refid="Base_Column_List" />
     from tb_order_shipping
     where order_id = #{orderId,jdbcType=VARCHAR}
@@ -100,23 +100,23 @@
     delete from tb_order_shipping
     where order_id = #{orderId,jdbcType=VARCHAR}
   </delete>
-  <delete id="deleteByExample" parameterType="com.igeek.ebuy.pojo.TbOrderShippingExample">
+  <delete id="deleteByExample" parameterType="TbOrderShippingExample">
     delete from tb_order_shipping
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.igeek.ebuy.pojo.TbOrderShipping">
-    insert into tb_order_shipping (order_id, receiver_name, receiver_phone, 
-      receiver_mobile, receiver_state, receiver_city, 
-      receiver_district, receiver_address, receiver_zip, 
+  <insert id="insert" parameterType="TbOrderShipping">
+    insert into tb_order_shipping (order_id, receiver_name, receiver_phone,
+      receiver_mobile, receiver_state, receiver_city,
+      receiver_district, receiver_address, receiver_zip,
       created, updated)
-    values (#{orderId,jdbcType=VARCHAR}, #{receiverName,jdbcType=VARCHAR}, #{receiverPhone,jdbcType=VARCHAR}, 
-      #{receiverMobile,jdbcType=VARCHAR}, #{receiverState,jdbcType=VARCHAR}, #{receiverCity,jdbcType=VARCHAR}, 
-      #{receiverDistrict,jdbcType=VARCHAR}, #{receiverAddress,jdbcType=VARCHAR}, #{receiverZip,jdbcType=VARCHAR}, 
+    values (#{orderId,jdbcType=VARCHAR}, #{receiverName,jdbcType=VARCHAR}, #{receiverPhone,jdbcType=VARCHAR},
+      #{receiverMobile,jdbcType=VARCHAR}, #{receiverState,jdbcType=VARCHAR}, #{receiverCity,jdbcType=VARCHAR},
+      #{receiverDistrict,jdbcType=VARCHAR}, #{receiverAddress,jdbcType=VARCHAR}, #{receiverZip,jdbcType=VARCHAR},
       #{created,jdbcType=TIMESTAMP}, #{updated,jdbcType=TIMESTAMP})
   </insert>
-  <insert id="insertSelective" parameterType="com.igeek.ebuy.pojo.TbOrderShipping">
+  <insert id="insertSelective" parameterType="TbOrderShipping">
     insert into tb_order_shipping
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="orderId != null">
@@ -189,7 +189,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.igeek.ebuy.pojo.TbOrderShippingExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="TbOrderShippingExample" resultType="java.lang.Long">
     select count(*) from tb_order_shipping
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -253,7 +253,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.igeek.ebuy.pojo.TbOrderShipping">
+  <update id="updateByPrimaryKeySelective" parameterType="TbOrderShipping">
     update tb_order_shipping
     <set>
       <if test="receiverName != null">
@@ -289,7 +289,7 @@
     </set>
     where order_id = #{orderId,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.igeek.ebuy.pojo.TbOrderShipping">
+  <update id="updateByPrimaryKey" parameterType="TbOrderShipping">
     update tb_order_shipping
     set receiver_name = #{receiverName,jdbcType=VARCHAR},
       receiver_phone = #{receiverPhone,jdbcType=VARCHAR},
