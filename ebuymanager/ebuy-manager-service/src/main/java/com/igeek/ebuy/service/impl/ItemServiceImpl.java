@@ -1,13 +1,13 @@
 package com.igeek.ebuy.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.igeek.ebuy.manager.mapper.TbItemMapper;
 import com.igeek.ebuy.pojo.TbItem;
 import com.igeek.ebuy.pojo.TbItemExample;
 import com.igeek.ebuy.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
+//import org.springframework.stereotype.Service;
 
 /**
  * @author www.igeekhome.com

@@ -12,20 +12,20 @@
     <packaging>war</packaging>
 
 
-    <dependencyManagement>
+    <!--<dependencyManagement>-->
 
-        <dependencies>
-            <!--springboot+springcloud-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Finchley.M7</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+        <!--<dependencies>-->
+            <!--&lt;!&ndash;springboot+springcloud&ndash;&gt;-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.cloud</groupId>-->
+                <!--<artifactId>spring-cloud-dependencies</artifactId>-->
+                <!--<version>Finchley.M7</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
 
-        </dependencies>
-    </dependencyManagement>
+        <!--</dependencies>-->
+    <!--</dependencyManagement>-->
     <!--用到redis，solr什么的用到在加-->
     <dependencies>
         <!--整合eureka-->
@@ -123,16 +123,16 @@
     </dependencies>
 
     <!--必须加，解决各种依赖问题：eureka-->
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>http://repo.spring.io/libs-milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>spring-milestones</id>-->
+            <!--<name>Spring Milestones</name>-->
+            <!--<url>http://repo.spring.io/libs-milestone</url>-->
+            <!--<snapshots>-->
+                <!--<enabled>false</enabled>-->
+            <!--</snapshots>-->
+        <!--</repository>-->
+    <!--</repositories>-->
 
     <build>
         <plugins>

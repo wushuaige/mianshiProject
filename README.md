@@ -194,6 +194,7 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 只需要spring加载dubbo配置即可，基于schema扩展进行加载
 - https://www.cnblogs.com/lilixin/p/5724976.html
 - https://blog.csdn.net/u014740338/article/details/80278289
+- https://blog.csdn.net/JzCm__/article/details/84794825
 
 #### 注册中心
 
@@ -209,9 +210,13 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 可参考网址解压包位置：https://www.cnblogs.com/liangqihui/p/7154407.html
 - https://zhidao.baidu.com/question/504775293.html
 - 复制路径：http://c.biancheng.net/view/746.html
-- 
 - 安装环境：centos，jdk
 - 这里牵扯到了linux系统会写入常用命令
+- `tail -f ../logs/catalina.out` 这是当tomcat服务运行时查看运行状态
+- `systemctl start firewalld`   开启防火墙
+- `firewall-cmd --zone=public --add-port=1935/tcp --permanent` 永久开放指定端口
+- `firewall-cmd --reload`   刷新防火墙
+- `netstat -ntulp |grep 1935`   查看开放端口的使用情况
 - 在解压目录创建data文件夹，修改zoo_sample.cfg 为zoo.cfg，这不是集群，一个zookeeper就可以了
 - 修改配置文件里的dataDir=你的data文件所在的目录
 - ./zkServer.sh start启动zookeeper(./zkServer.sh stop停止，status状态)
@@ -230,7 +235,12 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 容器：https://www.cnblogs.com/ysy6233/p/7811211.html
 - manager中pom文件刪除web，web文件移動到manager同級，service修改打包方式
 - service工程添加web.xml配置文件，web工程的配置文件複製到service中，刪除springmvc.xml，web.xml中只配置spring容器，刪除前端控制器
-- service中添加dubbo依賴的jar包
+- service中添加dubbo依賴的jar包，zookeeper一系列依赖
+- 然后虚拟机开启注册中心，运行dubbo监控中心
+- 成功后会有检测到服务，不过会出一个TBItem序列化的错误
+- socket对象流，网络编程，发对象的时候对象必须实现序列化这个接口
+- 我们这里出错是因为没有实现
+- 
 - 
 
 
