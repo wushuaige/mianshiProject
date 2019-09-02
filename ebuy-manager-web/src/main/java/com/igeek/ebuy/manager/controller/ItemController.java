@@ -1,13 +1,12 @@
 package com.igeek.ebuy.manager.controller;
 
+import com.igeek.ebuy.pojo.TbItem;
 import com.igeek.ebuy.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import com.igeek.ebuy.pojo.TbItem;
 
 //  如何使用注释模板：输入模本的简称Abbreviation，然后使用自己设置的enter或者tab的方式点击，直接出现
 // IDEA的参数设置@Date $date$ ，在variables里选择expression
@@ -28,8 +27,10 @@ public class ItemController {
     //注入
     @Autowired
     private ItemService itemService;
-
-    @RequestMapping(value = "/item/{itemId}",method = RequestMethod.GET)
+//    后面从method开始一堆东西都是自己后来加上去的
+//    @RequestMapping(value = "/item/{itemId}",method = RequestMethod.GET,produces="application/json;charset = utf-8",consumes= MediaType.APPLICATION_JSON_VALUE)
+//    @RequestMapping(value = "/item/{itemId}",method = RequestMethod.GET)
+    @RequestMapping(value = "/item/{itemId}")
     //    需要返回json格式数据，so,它会自己使用jcason将查出的对象转为json
     @ResponseBody
 //    参数是从路径中获取的，so,加上了这个注解

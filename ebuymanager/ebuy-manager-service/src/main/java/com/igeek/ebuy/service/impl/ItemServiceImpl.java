@@ -37,6 +37,6 @@ public class ItemServiceImpl implements ItemService {
         if (items!=null && items.size() == 1){
             return items.get(0);
         }
-        return null;
+        return items.get(0);
     }
 }

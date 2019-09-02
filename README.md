@@ -244,6 +244,7 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - 错误记录关于找不到什么返回值类型转换的什么玩意：http://www.it1352.com/951690.html
 - dubbo提供者ip不对：https://www.cnblogs.com/zhangcybb/p/4962873.html
 - 遇到的问题与下面类似：http://www.mamicode.com/info-detail-1320961.html
+- 这是500错误java.lang.IllegalArgumentException：http://www.it1352.com/951857.html
 
 
 

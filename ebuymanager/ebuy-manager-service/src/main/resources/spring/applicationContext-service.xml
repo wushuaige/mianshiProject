@@ -25,7 +25,8 @@
     <dubbo:application name="ebuy-manager"/>
     <dubbo:registry protocol="zookeeper" address="192.168.221.140:2181"  register="true"/>
     <!--<dubbo:registry address="zookeeper://192.168.221.140:2181" client="zkclient" check="false"/>-->
-    <dubbo:protocol name="dubbo" port="20191" host="192.168.221.140"/>
+    <!--<dubbo:protocol name="dubbo" port="20191" host="192.168.221.140"/>-->
+    <dubbo:protocol name="dubbo" port="20191"/>
     <dubbo:service interface="com.igeek.ebuy.service.ItemService" ref="itemServiceImpl"/>
     <bean id="itemServiceImpl" class="com.igeek.ebuy.service.impl.ItemServiceImpl"/>
 

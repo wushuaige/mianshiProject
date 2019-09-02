@@ -30,7 +30,7 @@
     <dubbo:registry protocol="zookeeper" address="192.168.221.140:2181"/>
     <!--<dubbo:registry address="zookeeper://192.168.221.140:2181" client="zkclient" check="false"/>-->
     <dubbo:reference interface="com.igeek.ebuy.service.ItemService" id="itemService"/>
-    <dubbo:protocol host="192.168.221.140"/>
+    <!--<dubbo:protocol host="192.168.221.140"/>-->
 
 
 
