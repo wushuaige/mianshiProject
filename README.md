@@ -225,6 +225,7 @@ parent给maven-install一下，然后common再install一下，如果没有通过
 - lsof -i:22 检测22端口是否开放，用来使用Xshell
 - 永久开放端口：https://www.cnblogs.com/blackhumour2018/p/9648390.html，通過這個開放的端口號，losf -i是查詢不到什麽的
 - xftp是连接直接传送文件，给虚拟机
+- IDEA修改jdk版本：https://blog.csdn.net/hanjun0612/article/details/72845918
 
 ## 实现商品列表功能
 

@@ -15,17 +15,16 @@
         <module name="eureka" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ebuy-manager-web" target="1.5" />
-      <module name="ebuycommon" target="1.5" />
-      <module name="ebuymanager" target="1.5" />
-      <module name="ebuymanagerdao" target="1.5" />
-      <module name="ebuymanagerinterface" target="1.5" />
-      <module name="ebuymanagerpojo" target="1.5" />
-      <module name="ebuymanagerservice" target="1.5" />
-      <module name="ebuymanagerweb" target="1.5" />
-      <module name="ebuyparent" target="1.5" />
-      <module name="eureka" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="ebuy-manager-web" target="8" />
+      <module name="ebuycommon" target="8" />
+      <module name="ebuymanager" target="8" />
+      <module name="ebuymanagerdao" target="8" />
+      <module name="ebuymanagerinterface" target="8" />
+      <module name="ebuymanagerpojo" target="8" />
+      <module name="ebuymanagerservice" target="8" />
+      <module name="ebuyparent" target="8" />
+      <module name="eureka" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

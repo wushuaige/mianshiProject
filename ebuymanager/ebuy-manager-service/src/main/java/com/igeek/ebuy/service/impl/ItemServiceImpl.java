@@ -3,10 +3,8 @@ package com.igeek.ebuy.service.impl;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.igeek.ebuy.manager.mapper.TbItemMapper;
 import com.igeek.ebuy.pojo.TbItem;
-import com.igeek.ebuy.pojo.TbItemExample;
 import com.igeek.ebuy.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
-import java.util.List;
 //import org.springframework.stereotype.Service;
 
 /**
@@ -23,20 +21,20 @@ public class ItemServiceImpl implements ItemService {
     private TbItemMapper itemMapper;
 
     public TbItem queryById(long itemId) {
-//        return itemMapper.selectByPrimaryKey(itemId);
+        return itemMapper.selectByPrimaryKey(itemId);
 //        return null;
 //        还有一种方式Example
 
-        TbItemExample example = new TbItemExample();
-        //设置条件
-        TbItemExample.Criteria criteria = example.createCriteria();
-        criteria.andIdEqualTo(itemId);
-        //ctrl+alt+v
-        List<TbItem> items = itemMapper.selectByExample(example);
-        //通过id查出来的肯定是一个啊
-        if (items!=null && items.size() == 1){
-            return items.get(0);
-        }
-        return items.get(0);
+//        TbItemExample example = new TbItemExample();
+//        //设置条件
+//        TbItemExample.Criteria criteria = example.createCriteria();
+//        criteria.andIdEqualTo(itemId);
+//        //ctrl+alt+v
+//        List<TbItem> items = itemMapper.selectByExample(example);
+//        //通过id查出来的肯定是一个啊
+//        if (items!=null && items.size() == 1){
+//            return items.get(0);
+//        }
+//        return items.get(0);
     }
 }
