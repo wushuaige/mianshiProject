@@ -19,7 +19,7 @@
         <mysql.version>5.1.32</mysql.version>
         <!--<slf4j.version>1.6.4</slf4j.version>-->
         <slf4j.version>1.7.8</slf4j.version>
-        <jackson.version>2.4.2</jackson.version>
+        <jackson.version>2.9.10.3</jackson.version>
         <druid.version>1.0.9</druid.version>
         <!--这个好像没用用到-->
         <httpclient.version>4.3.5</httpclient.version>
