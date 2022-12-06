@@ -31,7 +31,7 @@
         <!--一个工具-->
         <commons-lang3.version>3.3.2</commons-lang3.version>
         <commons-io.version>1.3.2</commons-io.version>
-        <commons-net.version>3.3</commons-net.version>
+        <commons-net.version>3.9.0</commons-net.version>
         <pagehelper.version>3.4.2</pagehelper.version>
         <!--<pagehelper.version>4.1.4</pagehelper.version>-->
         <!--没用到-->
